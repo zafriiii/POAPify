@@ -1,0 +1,153 @@
+.background {
+    background-image: url('../../assets/nbg.png'); /* Correct relative path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional: Makes background fixed on scroll */
+    min-height: 110vh; /* Use min-height to ensure it covers at least the full viewport */
+    width: 100%; /* Use percentage for responsive width */
+    overflow-y: auto; /* Allow vertical scrolling if content overflows */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align to the left */
+    justify-content: flex-start; /* Align content to the top */
+    padding: 50px; /* Add padding for spacing */
+  }
+  
+  /* Main container for content and image */
+  .mainContainer {
+    display: flex;
+    align-items: flex-start; /* Align content at the top */
+    justify-content: space-between; /* Space between left content and right image */
+    width: 100%;
+    max-width: 1200px; /* Limit width for better layout */
+    margin: auto;
+  }
+  
+  /* Content container styling */
+  .contentContainer {
+    flex: 1;
+    text-align: left; /* Align content to the left */
+    color: white; /* Default text color */
+    margin-right: 30px; /* Space between content and right image */
+  }
+  
+  /* Right image container styling */
+  .imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Align image to the right */
+    align-items: flex-start; /* Align image at the top */
+  }
+  
+  /* Right image styling */
+  .rightImage {
+    max-width: 80%; /* Adjust size of the image */
+    height: auto;
+    border-radius: 10px; /* Optional: Add rounded corners */
+  }
+  
+  /* Heading styling */
+  .heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800; /* Extra Bold */
+    font-size: 2.5rem; /* Adjust size as needed */
+    margin-bottom: 10px; /* Spacing below the heading */
+  }
+  
+  /* Gradient text for "POAPify" */
+  .gradientText {
+    background: linear-gradient(90deg, #FF009D, #C3FF00); /* Gradient color */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Subheading styling */
+  .subheading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; /* Regular */
+    font-size: 1.2rem;
+    margin-top: 30px; /* Spacing above the subheading */
+    line-height: 1.5; /* Improve readability */
+  }
+  
+  /* Input group styling */
+  .inputGroup {
+    margin-top: 30px; /* Space above the input group */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label styling */
+  .inputLabel {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300; /* Light font */
+    font-size: 1rem;
+    margin-bottom: 5px; /* Space below the label */
+  }
+  
+  /* Input field styling */
+  .inputField {
+    width: 550px; /* Set width for the input field */
+    padding: 10px 15px; /* Add padding inside the input */
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Remove default focus outline */
+    transition: border-color 0.3s ease;
+  }
+  
+  .inputField:focus {
+    border-color: #FF009D; /* Highlight border on focus */
+  }
+  
+  /* Log In Button styling */
+  .loginButton {
+    margin-top: 20px; /* Space above the button */
+    padding: 12px 250px; /* Adjust padding for button size */
+    font-family: 'Inter', sans-serif;
+    font-weight: 600; /* Semi-bold font weight */
+    font-size: 1rem;
+    color: white; /* White text color */
+    background-color: #580A88; /* Button background color */
+    border: none; /* Remove border */
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor for better usability */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .loginButton:hover {
+    background-color: #6a14a1; /* Slightly lighter color on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .loginButton:active {
+    transform: scale(1); /* Reset zoom when clicked */
+  }
+  
+  /* Text for "Don't have an account?" */
+  .registerText {
+    margin-top: 20px; /* Space above the text */
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; /* Regular font weight */
+    font-size: 1rem;
+    color: white; /* Default text color */
+    text-align: left; /* Left-align the text */
+    margin-left: 18vh;
+  }
+  
+  /* Gradient link for "Register" */
+  .gradientLink {
+    background: linear-gradient(90deg, #FF009D, #C3FF00); /* Gradient color */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600; /* Semi-bold font weight */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  
+  .gradientLink:hover {
+    opacity: 0.8; /* Slight fade effect on hover */
+  }
+  

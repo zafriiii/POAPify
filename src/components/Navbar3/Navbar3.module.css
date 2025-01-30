@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282c34;
+  padding: 10px 20px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.brandText {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.userName {
+  margin-left: auto; /* Push to the right */
+  font-weight: 500;
+  color: #61dafb;
+}

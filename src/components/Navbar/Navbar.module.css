@@ -1,0 +1,72 @@
+/* Main Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: transparent; /* Transparent background */
+    position: fixed; /* Stick to top */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other elements */
+    margin-top: 4vh;
+    margin-left: 43vh;
+  }
+  
+  /* Left section styling */
+  .leftSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo styling */
+  .logo {
+    height: 40px; /* Adjust size as needed */
+    margin-right: 10px;
+  }
+  
+  /* Brand text styling */
+  .brandText {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800; /* Extra Bold */
+    color: white;
+    font-size: 24px;
+  }
+  
+  /* Right section styling */
+  .rightSection {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+    margin-right: 90vh;
+  }
+  
+  /* General nav button styling */
+  .navButton {
+    background: none;
+    border: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .navButton:hover {
+    color: #ff00c3; /* Change color on hover */
+  }
+  
+  /* Gradient text for Register and Login */
+  .navButtonGradient {
+    background: linear-gradient(90deg, #FF009D, #BCB900);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+  }
+  

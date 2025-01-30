@@ -1,0 +1,129 @@
+/* Background styling */
+.background {
+  background-image: url('../../assets/nbg.png'); /* Correct relative path */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional: Makes background fixed on scroll */
+  min-height: 110vh; /* Use min-height to ensure it covers at least the full viewport */
+  width: 100%; /* Use percentage for responsive width */
+  overflow-y: auto; /* Allow vertical scrolling if content overflows */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align to the left */
+  justify-content: flex-start; /* Align content to the top */
+  padding: 50px; /* Add padding for spacing */
+}
+
+/* Main container for content and image */
+.mainContainer {
+  display: flex;
+  align-items: flex-start; /* Align content at the top */
+  justify-content: space-between; /* Space between left content and right image */
+  width: 100%;
+  max-width: 1200px; /* Limit width for better layout */
+  margin: auto;
+}
+
+/* Content container styling */
+.contentContainer {
+  flex: 1;
+  text-align: left; /* Align content to the left */
+  color: white; /* Default text color */
+  margin-right: 30px; /* Space between content and right image */
+}
+
+/* Heading styling */
+.heading {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800; /* Extra Bold */
+  font-size: 2.5rem; /* Adjust size as needed */
+  margin-bottom: 10px; /* Spacing below the heading */
+}
+
+/* Light text for "Welcome" */
+.lightText {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300; /* Light font */
+  font-size: inherit; /* Inherit the size from the heading */
+  color: white; /* Keep the same color */
+}
+
+/* Gradient text for "Marc!" */
+.gradientText {
+  background: linear-gradient(90deg, #FF009D, #C3FF00); /* Gradient color */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Navigation buttons container */
+.navButtons {
+  display: flex;
+  gap: 20px; /* Space between buttons */
+  margin-top: 20px; /* Add spacing below the heading */
+}
+
+/* Individual navigation button styling */
+.navButton {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400; /* Regular font weight */
+  color: white; /* Default text color */
+  text-decoration: none; /* Remove underline */
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navButton:hover {
+  color: #ff009d; /* Slight color change on hover */
+}
+
+/* Active button styling with gradient underline */
+.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Position the underline slightly below the text */
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #FF009D, #C3FF00); /* Gradient color */
+  border-radius: 2px; /* Slightly rounded corners */
+}
+
+/* Styling for Recent Events text */
+.recentEventsText {
+  margin-top: 30px; /* Space above the text */
+  font-family: 'Inter', sans-serif;
+  font-weight: 600; /* Semi-bold */
+  font-size: 1.2rem; /* Adjust size as needed */
+  color: white;
+}
+
+/* Cards container styling */
+.cardsContainer {
+  display: flex;
+  gap: 20px; /* Space between cards */
+  margin-top: 20px; /* Spacing above the cards */
+  justify-content: flex-start; /* Align cards to the left */
+}
+
+/* Individual card styling */
+.card {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+  color: white; /* White text color for contrast */
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 500; /* Medium font weight */
+  text-align: center;
+  padding: 90px;
+  width: 130px; /* Fixed width for cards */
+  border: 1px solid black; /* Small black outline */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}

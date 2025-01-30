@@ -1,0 +1,64 @@
+.background {
+    background-image: url('../../assets/nbg.png'); /* Correct relative path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional: Makes background fixed on scroll */
+    min-height: 110vh; /* Use min-height to ensure it covers at least the full viewport */
+    width: 100%; /* Use percentage for responsive width */
+    overflow-y: auto; /* Allow vertical scrolling if content overflows */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align to the left */
+    justify-content: flex-start; /* Align content to the top */
+    padding: 50px; /* Add padding for spacing */
+  }
+  
+  /* Content container styling */
+  .contentContainer {
+    display: flex;
+    justify-content: flex-start; /* Align text to the left */
+    align-items: flex-start; /* Align items to the top */
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 2rem; /* Add spacing from the top */
+  }
+  
+  /* Text container styling */
+  .textContainer {
+    max-width: 600px; /* Limit the width of the text for better readability */
+    color: white; /* White text color */
+  }
+  
+  /* Heading styling */
+  .heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800; /* Extra Bold */
+    font-size: 3.5rem; /* Adjust size as needed */
+    margin-bottom: 35px; /* Spacing below the heading */
+  }
+  
+  /* Paragraph styling */
+  .paragraph {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; /* Regular */
+    font-size: 1.25rem;
+    line-height: 1.8; /* Improve readability */
+    margin-bottom: 20px; /* Spacing between paragraphs */
+    text-align: justify;
+  }
+  
+  /* Image container styling */
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+/* Image styling */
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
