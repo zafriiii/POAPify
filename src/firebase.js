@@ -5,14 +5,14 @@ import { getDatabase } from "firebase/database";
 
 //  web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAvNROR6ylWl5EQn8MjisnCLWIA9KUFjIA",
-  authDomain: "proof-of-attendance-protocol.firebaseapp.com",
-  databaseURL: "https://proof-of-attendance-protocol-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "proof-of-attendance-protocol",
-  storageBucket: "proof-of-attendance-protocol.appspot.com",
-  messagingSenderId: "476010957794",
-  appId: "1:476010957794:web:888da46a8994f9266347bb",
-  measurementId: "G-7CYW6V8LTJ"
+  apiKey: "INSERT_API_KEY",
+  authDomain: "INSERT_AUTHENTICATION_DOMAIN",
+  databaseURL: "INSERT_DATABASE_URL",
+  projectId: "INSERT_PROJECT_ID",
+  storageBucket: "INSERT_STORAGE_BUCKET",
+  messagingSenderId: "INSERT_SENDER_ID",
+  appId: "INSERT_APP_ID",
+  measurementId: "INSERT_MEASUREMENT_ID"
 };
 
 // Initialize Firebase
