@@ -1,0 +1,23 @@
+/* src/pages/Mint/Mint.module.css */
+.container {
+    padding: 2rem;
+    text-align: center;
+  }
+  .content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .nftImage {
+    max-width: 300px;
+    margin-top: 1rem;
+  }
+  .walletButton,
+  .mintButton {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  .statusMessage {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
