@@ -1,3 +1,17 @@
+# POAPify - Proof of Attendance Protocol
+
+This project, **POAPify**, is a decentralized application (dApp) developed as part of the coursework for **CCS6354 - Blockchain & Smart Contracts**. It demonstrates a Proof of Attendance Protocol where event hosts create events and attendees mint NFTs as proof of attendance. The system integrates:
+
+- **Smart Contracts:** Developed in Solidity to mint ERC721 NFTs.
+- **IPFS Integration:** Using Pinata to store event images and metadata.
+- **Full-Stack Architecture:** A React frontend integrated with MetaMask and a Node.js/Express backend.
+- **Attendance Tracking:** Attendance is marked automatically upon successful NFT minting.
+
+**Disclaimer:**  
+If you choose to copy, modify, or distribute any part of this project, please do so at your own risk. Unauthorized copying may be considered plagiarism.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -8,23 +22,23 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.  
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.  
 You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.  
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.  
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.  
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
@@ -43,17 +57,15 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 Command to install React & React DOM
 
 ### `npm install bootstrap`
-
 Command to install Bootstrap
 
 ### `npm install axios`
-
 Command to install Axios
 
 ### `npm install firebase`
+Command to install Firebase
 
-Command to install firebase
-
+---
 
 ## Learn More
 
